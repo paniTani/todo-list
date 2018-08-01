@@ -1,0 +1,30 @@
+li {
+    margin-top: 15px;
+    list-style-type: none;
+}
+
+ul {
+    width: 20%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.todo-checkbox {
+    margin-right: 10px;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.btn-delete {
+     background-color: red;
+     color: #fff;
+     margin-left: 20px;
+     border-radius: 7px;
+     float: right;
+ }
+
+.btn-delete:focus {
+    outline: none;
+}
